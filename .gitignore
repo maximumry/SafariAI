@@ -1,0 +1,40 @@
+# macOS
+.DS_Store
+._*
+
+# Xcode / Swift build output
+.build/
+DerivedData/
+build/
+*.app/
+*.appex/
+*.dSYM/
+*.xcarchive/
+*.ipa
+*.xcresult/
+
+# Personal Xcode state (keep shared project/workspace files)
+xcuserdata/
+*.xcuserstate
+*.xcuserdatad/
+
+# JavaScript dependencies and generated test output
+node_modules/
+playwright-report/
+test-results/
+coverage/
+*.log
+
+# Local secrets and developer signing material
+.env
+.env.*
+!.env.example
+!.env.sample
+*.local.xcconfig
+*.p12
+*.p8
+*.mobileprovision
+*.provisionprofile
+
+# Local scratch files
+/work/

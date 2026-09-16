@@ -1,0 +1,667 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 110;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFB14D69305A7C4E0043D051 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB14D68305A7C4E0043D051 /* AppDelegate.swift */; };
+		EFB14D6D305A7C4E0043D051 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = EFB14D6B305A7C4E0043D051 /* Main.html */; };
+		EFB14D6F305A7C4E0043D051 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB14D6E305A7C4E0043D051 /* Icon.png */; };
+		EFB14D71305A7C4E0043D051 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = EFB14D70305A7C4E0043D051 /* Style.css */; };
+		EFB14D73305A7C4E0043D051 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = EFB14D72305A7C4E0043D051 /* Script.js */; };
+		EFB14D75305A7C4E0043D051 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB14D74305A7C4E0043D051 /* ViewController.swift */; };
+		EFB14D78305A7C4E0043D051 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFB14D76305A7C4E0043D051 /* Main.storyboard */; };
+		EFB14D7A305A7C4F0043D051 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFB14D79305A7C4F0043D051 /* Assets.xcassets */; };
+		EFB14D81305A7C4F0043D051 /* Komorebi Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = EFB14D80305A7C4F0043D051 /* Komorebi Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		EFB14D86305A7C4F0043D051 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB14D85305A7C4F0043D051 /* SafariWebExtensionHandler.swift */; };
+		EFB14D93305A7C500043D051 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = EFB14D92305A7C500043D051 /* manifest.json */; };
+		9326E6C0D7BFD06935A297C7 /* help.html in Build */ = {isa = PBXBuildFile; fileRef = 37EAA05A0EA89F58563334EB; };
+		B6CA6ED7D9723509534160A1 /* background.js in Build */ = {isa = PBXBuildFile; fileRef = 03B82E0AF23BE572009380C6; };
+		F5F480A1717FC9E2DDA1C173 /* options.js in Build */ = {isa = PBXBuildFile; fileRef = 55FFBA129DD3FD563E4B9E35; };
+		6C4C4A5F143DD5D76BC1524C /* panel.js in Build */ = {isa = PBXBuildFile; fileRef = A413121F5549DC24A9DBAE2C; };
+		7D83ECF5C7501482633ECD14 /* panel.html in Build */ = {isa = PBXBuildFile; fileRef = 03DBCECDC219C977387F2E3B; };
+		FF28A4EDEE1BD5D16ED69E74 /* options.html in Build */ = {isa = PBXBuildFile; fileRef = A372C72D6C1FD67C042DC1DB; };
+		DBD531346C258855427B7D30 /* content.js in Build */ = {isa = PBXBuildFile; fileRef = 12190BB051674ADC26C5A430; };
+		F31D50DFAFDA193FF70F4F16 /* shared.js in Build */ = {isa = PBXBuildFile; fileRef = 49F828DF48CFD9E5A39D3DCD; };
+		56FA2AED1EA7B3A35CCC34EA /* panel.css in Build */ = {isa = PBXBuildFile; fileRef = F8E7A4038AADEB7474E95891; };
+		602C5B540422161A636E25B4 /* options.css in Build */ = {isa = PBXBuildFile; fileRef = FFAD5DB0435D290A6D733A44; };
+		79613F8E5E7C7AD189D51375 /* AIService.swift in Build */ = {isa = PBXBuildFile; fileRef = 77EDDB14D7B352740410B52E; };
+		D93D52AD3551A8BF77D0D95A /* CloudClient.swift in Build */ = {isa = PBXBuildFile; fileRef = F742F5128E69266717DB1A59; };
+		6517DFEE3B579FA613C5B1A2 /* Models.swift in Build */ = {isa = PBXBuildFile; fileRef = 9EF912477C38D71CEB242F6C; };
+		4237B2444924FBAEB87661B7 /* SettingsStore.swift in Build */ = {isa = PBXBuildFile; fileRef = 7DFDD3B4321BF85D4E613178; };
+		02FE3201DC80AD5BE1751D70 = {isa = PBXBuildFile; fileRef = E503C8DD7D02B6F88156F7C1; };
+		9D67894552114C64370732FE = {isa = PBXBuildFile; fileRef = 0651D8C048051E2E35DDF007; };
+		5BBAE00C482B4C869DF296DF = {isa = PBXBuildFile; fileRef = FE9843727CCEB5F06D478E31; };
+		2595D36470014BBA038B3B1D = {isa = PBXBuildFile; fileRef = 5E90693540F7A54A9F3AF9A5; };
+		20D3473B443BBC6AD8463ED6 = {isa = PBXBuildFile; fileRef = 4EAFA6E54AE894EF7A309EEE; };
+		CC5DF10C4B289B4020EE3558 = {isa = PBXBuildFile; fileRef = DB254130B21268FCC28369C3; };
+		F6D51B916A2E2908225C929B = {isa = PBXBuildFile; fileRef = E7C9F7EB9ECE25053E43CA73; };
+		8F331187C9179DF1DB089A8D = {isa = PBXBuildFile; fileRef = 55FE47F629DAF61C25C0AA29; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFB14D82305A7C4F0043D051 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFB14D5D305A7C4E0043D051 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFB14D7F305A7C4F0043D051;
+			remoteInfo = "Komorebi Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EFB14D8D305A7C4F0043D051 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			dstPath = "";
+			dstSubfolder = PlugIns;
+			files = (
+				EFB14D81305A7C4F0043D051 /* Komorebi Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EFB14D65305A7C4E0043D051 /* Komorebi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Komorebi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFB14D68305A7C4E0043D051 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EFB14D6C305A7C4E0043D051 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/Main.html; sourceTree = "<group>"; };
+		EFB14D6E305A7C4E0043D051 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		EFB14D70305A7C4E0043D051 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		EFB14D72305A7C4E0043D051 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		EFB14D74305A7C4E0043D051 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EFB14D77305A7C4E0043D051 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFB14D79305A7C4F0043D051 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFB14D7B305A7C4F0043D051 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFB14D80305A7C4F0043D051 /* Komorebi Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Komorebi Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFB14D85305A7C4F0043D051 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		EFB14D87305A7C4F0043D051 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFB14D92305A7C500043D051 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../../Extension/manifest.json; sourceTree = "<group>"; };
+		37EAA05A0EA89F58563334EB /* help.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = "help.html"; path = "../../Extension/help.html"; sourceTree = "<group>"; };
+		03B82E0AF23BE572009380C6 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "background.js"; path = "../../Extension/background.js"; sourceTree = "<group>"; };
+		55FFBA129DD3FD563E4B9E35 /* options.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "options.js"; path = "../../Extension/options.js"; sourceTree = "<group>"; };
+		A413121F5549DC24A9DBAE2C /* panel.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "panel.js"; path = "../../Extension/panel.js"; sourceTree = "<group>"; };
+		03DBCECDC219C977387F2E3B /* panel.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = "panel.html"; path = "../../Extension/panel.html"; sourceTree = "<group>"; };
+		A372C72D6C1FD67C042DC1DB /* options.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = "options.html"; path = "../../Extension/options.html"; sourceTree = "<group>"; };
+		12190BB051674ADC26C5A430 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "content.js"; path = "../../Extension/content.js"; sourceTree = "<group>"; };
+		49F828DF48CFD9E5A39D3DCD /* shared.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "shared.js"; path = "../../Extension/shared.js"; sourceTree = "<group>"; };
+		F8E7A4038AADEB7474E95891 /* panel.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = "panel.css"; path = "../../Extension/panel.css"; sourceTree = "<group>"; };
+		FFAD5DB0435D290A6D733A44 /* options.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = "options.css"; path = "../../Extension/options.css"; sourceTree = "<group>"; };
+		77EDDB14D7B352740410B52E /* AIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "AIService.swift"; path = "Native/AIService.swift"; sourceTree = "<group>"; };
+		F742F5128E69266717DB1A59 /* CloudClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CloudClient.swift"; path = "Native/CloudClient.swift"; sourceTree = "<group>"; };
+		9EF912477C38D71CEB242F6C /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Models.swift"; path = "Native/Models.swift"; sourceTree = "<group>"; };
+		7DFDD3B4321BF85D4E613178 /* SettingsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "SettingsStore.swift"; path = "Native/SettingsStore.swift"; sourceTree = "<group>"; };
+		E503C8DD7D02B6F88156F7C1 = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-16.png"; path = "../../Extension/icon-16.png"; sourceTree = "<group>"; };
+		0651D8C048051E2E35DDF007 = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-256.png"; path = "../../Extension/icon-256.png"; sourceTree = "<group>"; };
+		FE9843727CCEB5F06D478E31 = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-48.png"; path = "../../Extension/icon-48.png"; sourceTree = "<group>"; };
+		5E90693540F7A54A9F3AF9A5 = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-1024.png"; path = "../../Extension/icon-1024.png"; sourceTree = "<group>"; };
+		4EAFA6E54AE894EF7A309EEE = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-64.png"; path = "../../Extension/icon-64.png"; sourceTree = "<group>"; };
+		DB254130B21268FCC28369C3 = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-128.png"; path = "../../Extension/icon-128.png"; sourceTree = "<group>"; };
+		E7C9F7EB9ECE25053E43CA73 = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-32.png"; path = "../../Extension/icon-32.png"; sourceTree = "<group>"; };
+		55FE47F629DAF61C25C0AA29 = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-512.png"; path = "../../Extension/icon-512.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFB14D62305A7C4E0043D051 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		EFB14D7D305A7C4F0043D051 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFB14D5C305A7C4E0043D051 = {
+			isa = PBXGroup;
+			children = (
+				EFB14D67305A7C4E0043D051 /* Komorebi */,
+				EFB14D84305A7C4F0043D051 /* Komorebi Extension */,
+				EFB14D66305A7C4E0043D051 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFB14D66305A7C4E0043D051 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFB14D65305A7C4E0043D051 /* Komorebi.app */,
+				EFB14D80305A7C4F0043D051 /* Komorebi Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFB14D67305A7C4E0043D051 /* Komorebi */ = {
+			isa = PBXGroup;
+			children = (
+				EFB14D68305A7C4E0043D051 /* AppDelegate.swift */,
+				EFB14D74305A7C4E0043D051 /* ViewController.swift */,
+				EFB14D76305A7C4E0043D051 /* Main.storyboard */,
+				EFB14D79305A7C4F0043D051 /* Assets.xcassets */,
+				EFB14D7B305A7C4F0043D051 /* Info.plist */,
+				EFB14D6A305A7C4E0043D051 /* Resources */,
+			);
+			path = Komorebi;
+			sourceTree = "<group>";
+		};
+		EFB14D6A305A7C4E0043D051 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EFB14D6B305A7C4E0043D051 /* Main.html */,
+				EFB14D6E305A7C4E0043D051 /* Icon.png */,
+				EFB14D70305A7C4E0043D051 /* Style.css */,
+				EFB14D72305A7C4E0043D051 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		EFB14D84305A7C4F0043D051 /* Komorebi Extension */ = {
+			isa = PBXGroup;
+			children = (
+				EFB14D91305A7C500043D051 /* Resources */,
+				EFB14D85305A7C4F0043D051 /* SafariWebExtensionHandler.swift */,
+				7DFDD3B4321BF85D4E613178 /* SettingsStore.swift */,
+				9EF912477C38D71CEB242F6C /* Models.swift */,
+				F742F5128E69266717DB1A59 /* CloudClient.swift */,
+				77EDDB14D7B352740410B52E /* AIService.swift */,
+				EFB14D87305A7C4F0043D051 /* Info.plist */,
+			);
+			path = "Komorebi Extension";
+			sourceTree = "<group>";
+		};
+		EFB14D91305A7C500043D051 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EFB14D92305A7C500043D051 /* manifest.json */,
+				55FE47F629DAF61C25C0AA29,
+				E7C9F7EB9ECE25053E43CA73,
+				DB254130B21268FCC28369C3,
+				4EAFA6E54AE894EF7A309EEE,
+				5E90693540F7A54A9F3AF9A5,
+				FE9843727CCEB5F06D478E31,
+				0651D8C048051E2E35DDF007,
+				E503C8DD7D02B6F88156F7C1,
+				FFAD5DB0435D290A6D733A44 /* options.css */,
+				F8E7A4038AADEB7474E95891 /* panel.css */,
+				49F828DF48CFD9E5A39D3DCD /* shared.js */,
+				12190BB051674ADC26C5A430 /* content.js */,
+				A372C72D6C1FD67C042DC1DB /* options.html */,
+				03DBCECDC219C977387F2E3B /* panel.html */,
+				A413121F5549DC24A9DBAE2C /* panel.js */,
+				55FFBA129DD3FD563E4B9E35 /* options.js */,
+				03B82E0AF23BE572009380C6 /* background.js */,
+				37EAA05A0EA89F58563334EB /* help.html */,
+			);
+			name = Resources;
+			path = "Komorebi Extension";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFB14D64305A7C4E0043D051 /* Komorebi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFB14D8E305A7C4F0043D051 /* Build configuration list for PBXNativeTarget "Komorebi" */;
+			buildPhases = (
+				EFB14D61305A7C4E0043D051 /* Sources */,
+				EFB14D62305A7C4E0043D051 /* Frameworks */,
+				EFB14D63305A7C4E0043D051 /* Resources */,
+				EFB14D8D305A7C4F0043D051 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFB14D83305A7C4F0043D051 /* PBXTargetDependency */,
+			);
+			name = Komorebi;
+			productName = Komorebi;
+			productReference = EFB14D65305A7C4E0043D051 /* Komorebi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFB14D7F305A7C4F0043D051 /* Komorebi Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFB14D8A305A7C4F0043D051 /* Build configuration list for PBXNativeTarget "Komorebi Extension" */;
+			buildPhases = (
+				EFB14D7C305A7C4F0043D051 /* Sources */,
+				EFB14D7D305A7C4F0043D051 /* Frameworks */,
+				EFB14D7E305A7C4F0043D051 /* Resources */,
+			);
+			buildRules = (
+			);
+			name = "Komorebi Extension";
+			productName = "Komorebi Extension";
+			productReference = EFB14D80305A7C4F0043D051 /* Komorebi Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFB14D5D305A7C4E0043D051 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2700;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					EFB14D64305A7C4E0043D051 = {
+						CreatedOnToolsVersion = 27.0;
+					};
+					EFB14D7F305A7C4F0043D051 = {
+						CreatedOnToolsVersion = 27.0;
+					};
+				};
+			};
+			buildConfigurationList = EFB14D60305A7C4E0043D051 /* Build configuration list for PBXProject "Komorebi" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFB14D5C305A7C4E0043D051;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = EFB14D66305A7C4E0043D051 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFB14D64305A7C4E0043D051 /* Komorebi */,
+				EFB14D7F305A7C4F0043D051 /* Komorebi Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFB14D63305A7C4E0043D051 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+				EFB14D6F305A7C4E0043D051 /* Icon.png in Resources */,
+				EFB14D78305A7C4E0043D051 /* Main.storyboard in Resources */,
+				EFB14D73305A7C4E0043D051 /* Script.js in Resources */,
+				EFB14D6D305A7C4E0043D051 /* Main.html in Resources */,
+				EFB14D7A305A7C4F0043D051 /* Assets.xcassets in Resources */,
+				EFB14D71305A7C4E0043D051 /* Style.css in Resources */,
+			);
+		};
+		EFB14D7E305A7C4F0043D051 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+				EFB14D93305A7C500043D051 /* manifest.json in Resources */,
+				8F331187C9179DF1DB089A8D,
+				F6D51B916A2E2908225C929B,
+				CC5DF10C4B289B4020EE3558,
+				20D3473B443BBC6AD8463ED6,
+				2595D36470014BBA038B3B1D,
+				5BBAE00C482B4C869DF296DF,
+				9D67894552114C64370732FE,
+				02FE3201DC80AD5BE1751D70,
+				602C5B540422161A636E25B4 /* options.css in Build */,
+				56FA2AED1EA7B3A35CCC34EA /* panel.css in Build */,
+				F31D50DFAFDA193FF70F4F16 /* shared.js in Build */,
+				DBD531346C258855427B7D30 /* content.js in Build */,
+				FF28A4EDEE1BD5D16ED69E74 /* options.html in Build */,
+				7D83ECF5C7501482633ECD14 /* panel.html in Build */,
+				6C4C4A5F143DD5D76BC1524C /* panel.js in Build */,
+				F5F480A1717FC9E2DDA1C173 /* options.js in Build */,
+				B6CA6ED7D9723509534160A1 /* background.js in Build */,
+				9326E6C0D7BFD06935A297C7 /* help.html in Build */,
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFB14D61305A7C4E0043D051 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+				EFB14D75305A7C4E0043D051 /* ViewController.swift in Sources */,
+				EFB14D69305A7C4E0043D051 /* AppDelegate.swift in Sources */,
+			);
+		};
+		EFB14D7C305A7C4F0043D051 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+				EFB14D86305A7C4F0043D051 /* SafariWebExtensionHandler.swift in Sources */,
+				4237B2444924FBAEB87661B7 /* SettingsStore.swift in Build */,
+				6517DFEE3B579FA613C5B1A2 /* Models.swift in Build */,
+				D93D52AD3551A8BF77D0D95A /* CloudClient.swift in Build */,
+				79613F8E5E7C7AD189D51375 /* AIService.swift in Build */,
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFB14D83305A7C4F0043D051 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFB14D7F305A7C4F0043D051 /* Komorebi Extension */;
+			targetProxy = EFB14D82305A7C4F0043D051 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EFB14D6B305A7C4E0043D051 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFB14D6C305A7C4E0043D051 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		EFB14D76305A7C4E0043D051 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFB14D77305A7C4E0043D051 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFB14D88305A7C4F0043D051 /* Debug configuration for PBXProject "Komorebi" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EFB14D89305A7C4F0043D051 /* Release configuration for PBXProject "Komorebi" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		EFB14D8B305A7C4F0043D051 /* Debug configuration for PBXNativeTarget "Komorebi Extension" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Komorebi Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Komorebi Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.komorebi.SafariAI.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EFB14D8C305A7C4F0043D051 /* Release configuration for PBXNativeTarget "Komorebi Extension" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Komorebi Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Komorebi Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.komorebi.SafariAI.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		EFB14D8F305A7C4F0043D051 /* Debug configuration for PBXNativeTarget "Komorebi" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Komorebi/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Komorebi;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				INFOPLIST_KEY_NSViewGestureRecognizerIsExclusive = NO;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.komorebi.SafariAI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EFB14D90305A7C4F0043D051 /* Release configuration for PBXNativeTarget "Komorebi" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Komorebi/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Komorebi;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				INFOPLIST_KEY_NSViewGestureRecognizerIsExclusive = NO;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.komorebi.SafariAI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFB14D60305A7C4E0043D051 /* Build configuration list for PBXProject "Komorebi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFB14D88305A7C4F0043D051 /* Debug configuration for PBXProject "Komorebi" */,
+				EFB14D89305A7C4F0043D051 /* Release configuration for PBXProject "Komorebi" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		EFB14D8A305A7C4F0043D051 /* Build configuration list for PBXNativeTarget "Komorebi Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFB14D8B305A7C4F0043D051 /* Debug configuration for PBXNativeTarget "Komorebi Extension" */,
+				EFB14D8C305A7C4F0043D051 /* Release configuration for PBXNativeTarget "Komorebi Extension" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		EFB14D8E305A7C4F0043D051 /* Build configuration list for PBXNativeTarget "Komorebi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFB14D8F305A7C4F0043D051 /* Debug configuration for PBXNativeTarget "Komorebi" */,
+				EFB14D90305A7C4F0043D051 /* Release configuration for PBXNativeTarget "Komorebi" */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFB14D5D305A7C4E0043D051 /* Project object */;
+	validationLevel = 1;
+}
